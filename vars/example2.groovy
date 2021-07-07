@@ -1,6 +1,6 @@
 def call(String saywhat = "nothing") {
     
-        "C:/Program Files/Git/bin/sh.exe" ''' 
+        sh ''' 
            echo ${saywhat}
         '''
     
