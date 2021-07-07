@@ -1,6 +1,6 @@
 def call(String saywhat = "nothing") {
     
-        sh """ 
+        bat """ 
            echo ${saywhat}
         """
     
