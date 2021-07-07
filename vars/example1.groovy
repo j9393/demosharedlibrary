@@ -1,7 +1,13 @@
-def call(String name = "Alice") {
-    script {
+//def call(String name = "Alice") {
+  //  script {
        // sh """
-            echo "${name}"
+    //        echo "${name}"
        // """
+   // }
+//}
+
+def call(Closure body) {
+    node('windows') {
+        body()
     }
 }
