@@ -1,8 +1,11 @@
 def call(String saywhat = "nothing") {
     
-        sh ''' 
-            echo ${WORKSPACE}
-        '''
+       // sh ''' 
+           // echo ${WORKSPACE}
+       // '''
+    
+    sh label: '', script: "echo $saywhat"
+    
     }
     
     /*
