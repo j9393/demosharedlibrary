@@ -1,4 +1,13 @@
 def call(String saywhat = "nothing") {
+    
+      {
+        sh ''' 
+            echo ${WORKSPACE}
+        '''
+    }
+    
+    /*
+    
     if (saywhat == "hi") {
         script {
             sh """
@@ -18,5 +27,7 @@ def call(String saywhat = "nothing") {
             """
         }
     }
+    */
+    
 }
 
