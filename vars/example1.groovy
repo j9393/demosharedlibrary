@@ -1,7 +1,7 @@
 def call(String name = "Alice") {
     script {
-        sh """
+       // sh """
             echo Hi ${name}
-        """
+       // """
     }
 }
