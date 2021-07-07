@@ -1,8 +1,8 @@
 def call(String saywhat = "nothing") {
     
-        bat ''' 
+        bat """ 
            echo ${saywhat}
-        '''
+        """
     
    // sh label: '', script: "echo $saywhat"
     
