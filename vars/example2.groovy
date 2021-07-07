@@ -4,7 +4,9 @@ def call(String saywhat = "nothing") {
            // echo ${WORKSPACE}
        // '''
     
-    sh label: '', script: "echo $saywhat"
+   // sh label: '', script: "echo $saywhat"
+    
+    echo "${saywhat}"
     
     }
     
