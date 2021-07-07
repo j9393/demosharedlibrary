@@ -1,6 +1,5 @@
 def call(String saywhat = "nothing") {
     
-      {
         sh ''' 
             echo ${WORKSPACE}
         '''
@@ -29,5 +28,4 @@ def call(String saywhat = "nothing") {
     }
     */
     
-}
 
